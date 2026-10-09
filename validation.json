@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-09T08:14:54.988716+05:00",
+  "runtime": "Claude Code 2.1.287",
+  "platform": "Windows",
+  "tests": "mocked native plugin runner, no live models/processes",
+  "plugins": [
+    {
+      "plugin": "autopilot-progress",
+      "tests_passed": 7,
+      "tests_failed": 0,
+      "validate": "passed"
+    },
+    {
+      "plugin": "ctx",
+      "tests_passed": 5,
+      "tests_failed": 0,
+      "validate": "passed"
+    },
+    {
+      "plugin": "delete-guard",
+      "tests_passed": 19,
+      "tests_failed": 0,
+      "validate": "passed"
+    },
+    {
+      "plugin": "handoff",
+      "tests_passed": 8,
+      "tests_failed": 0,
+      "validate": "passed"
+    },
+    {
+      "plugin": "session-hub",
+      "tests_passed": 3,
+      "tests_failed": 0,
+      "validate": "passed"
+    },
+    {
+      "plugin": "threads",
+      "tests_passed": 9,
+      "tests_failed": 0,
+      "validate": "passed"
+    }
+  ],
+  "total_passed": 51,
+  "total_failed": 0,
+  "marketplace": "passed; optional author fields absent",
+  "standalone_typescript": "not_passed_against_main_branch_types; SDK declarations differ from tested runtime",
+  "live_desktop": "user_confirmed_working",
+  "global_cli_modified": false,
+  "original_files_unchanged": 29,
+  "repository": "https://github.com/IT-Shelter-Labs/Claude-Mods",
+  "marketplace_name": "claude-mods",
+  "remote_upload_performed": false,
+  "live_desktop_verification": {
+    "confirmed_at": "2026-10-09",
+    "source": "User explicitly confirmed that the complete collection was tested and works in Claude Desktop.",
+    "screenshots": [
+      "codex-clipboard-a9e1b1df-6b53-47fa-b05a-1ac64744cbd6.png",
+      "codex-clipboard-6ae94cb6-bc0e-413b-a721-2e658b765a7a.png"
+    ],
+    "visible_evidence": [
+      "installed plugins and reload",
+      "CTX indicator",
+      "Session Hub pane"
+    ]
+  }
+}
